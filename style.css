@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.section-one{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+ 
+.container{
+    text-align: center;
+}
+
+.section-four,.section-two,.section-three,.section-five{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+@media screen and (max-width:600px){
+
+    .section-four,.section-two,.section-three,.section-five{
+        font-size: 12px;
+    }
+}
+
+
+.section-six {
+    
+    Background-color: black;
+    Color: white;
+    
+    Margin-top: 1px;
+
+    
+}
+
+.section-seven{
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+    Background-color: black;
+    Color: white;
+}
+
+Table {
+    Border-collapse: collapse;
+}
+
+Tr, td {
+
+    Border: none;
+    Padding: 4px;
+}
+
+
+.section-six{
+
+    Text-align: center;
+    
+
+
+}
+
+Button{
+    Background-color: yellow;
+   
+}
+
+Button:hover{
+    Background-color: burlywood;
+    
+}
+
+
